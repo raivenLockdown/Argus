@@ -1,0 +1,12 @@
+# Ignore scan results
+results/
+temp_all.txt
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore API configs if you stored them locally
+*.yaml
+*.ini
+.env
