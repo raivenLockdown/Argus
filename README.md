@@ -78,15 +78,3 @@ results/target.com_YYYYMMDD_HHMMSS/
 **Disclaimer:** Argus-Eye is intended for authorized security auditing and bug bounty research only. The author is not responsible for any misuse or damage caused by this tool. Always obtain written permission before scanning a target.
 
 ```
-
----
-
-### How to use this:
-1.  Open your terminal in your project folder.
-2.  Type `nano README.md`.
-3.  Paste the content above.
-4.  Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
-
-**Would you like me to help you create a "Quick Start" bash script that combines the setup and your first scan into one single command?**
-
-```
