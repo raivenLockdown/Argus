@@ -1,4 +1,4 @@
-# 👁️ ARGUS
+# ARGUS
 **The All-Seeing Automated Reconnaissance Suite**
 
 Argus is a high-performance wrapper designed to automate the initial phases of infrastructure discovery and vulnerability mapping. It weaves together industry-standard tools into a single, cohesive pipeline, moving from DNS resolution to OSINT, subdomain discovery, web probing, and automated vulnerability scanning.
@@ -7,7 +7,7 @@ Argus is a high-performance wrapper designed to automate the initial phases of i
 
 ---
 
-## 🚀 Features
+## Features
 * **Phase 0: DNS Baseline** – Deep DNS query via `dig` to establish the target's footprint.
 * **Phase 1: OSINT** – Aggregates metadata using `theHarvester` and `whois`.
 * **Phase 2: Subdomain Discovery** – Combines passive (Amass, Subfinder) and active (FFUF) methods.
@@ -16,7 +16,7 @@ Argus is a high-performance wrapper designed to automate the initial phases of i
 
 ---
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 
 ### 1. System Requirements
 Argus-Eye is designed to run on **Kali Linux**. Ensure you have `golang` and `python3` installed.
@@ -40,7 +40,7 @@ To unlock the full power of Argus-Eye, you must configure your **Shodan** and **
 
 ---
 
-## 🚦 Usage
+## Usage
 
 Run a standard scan against a target domain:
 
@@ -56,7 +56,7 @@ python3 argus.py -d target.com
 
 ---
 
-## 📂 Output Structure
+## Output Structure
 
 Argus-Eye creates a timestamped folder for every scan:
 
@@ -73,8 +73,7 @@ results/target.com_YYYYMMDD_HHMMSS/
 
 ---
 
-## ⚖️ License & Warning
+## License & Warning
 
 **Disclaimer:** Argus-Eye is intended for authorized security auditing and bug bounty research only. The author is not responsible for any misuse or damage caused by this tool. Always obtain written permission before scanning a target.
 
-```
